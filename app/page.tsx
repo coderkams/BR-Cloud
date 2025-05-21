@@ -30,10 +30,10 @@ export default function LoginPage() {
     <CardContent>
       <form className="space-y-4">
         <div className="space-y-2">
-          <Input type="email" placeholder="Email"  />
+          <Input type="email" placeholder="Email"  className="bg-white placeholder-gray-400 text-black" />
         </div>
         <div className="space-y-2">
-          <Input type="password" placeholder="Password"  />
+          <Input type="password" placeholder="Password" className="bg-white placeholder-gray-400 text-black" />
         </div>
         <Link href="/vm-setup/step1" className="w-full block mt-4">
           <Button className="w-full bg-blue-600 hover:bg-blue-700">
